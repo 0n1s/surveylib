@@ -49,7 +49,7 @@ public class SurveyActivity extends AppCompatActivity {
 
         final ArrayList<Fragment> arraylist_fragments = new ArrayList<>();
 
-        if(mSurveyPojo){
+        if(mSurveyPojo!=null){
         //- START -
         if (!mSurveyPojo.getSurveyProperties().getSkipIntro()) {
             FragmentStart frag_start = new FragmentStart();
